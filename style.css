@@ -1,0 +1,200 @@
+
+/* Nav Bar */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    height: 50px;
+    font-family: "Atkinson Hyperlegible";
+    background-color: goldenrod;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-title {
+    margin-left: 10px;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.btn {
+    color: white;
+    background-color: teal;
+    border: solid black;
+    border-radius: 10%;
+    box-shadow: 2px 2px black;
+    margin-right: 10px;
+}
+
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+/* User Tag */
+
+#usercard {
+    width: 400px;
+    height: 225px;
+    background-color: cadetblue;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+#top {
+    background-color: forestgreen;
+    height: 80px;
+    border-radius: 15px;
+}
+
+#user {
+    height: 90px;
+    width: 90px;
+    border: 6px solid cadetblue;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    top: 90px;
+    left: 275px;
+}
+
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+h3 {
+    margin-left: 20px;
+}
+
+.pic {
+    height: 18px;
+    margin: 15px;
+}
+
+.local {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.local h3 {
+    margin-left: -20px;
+}
+
+/* REQUESTS */
+
+.requests {
+    width: 300px;
+    background-color: white;
+    border: 3px solid blue;
+    border-radius: 20px;
+}
+
+.fhead {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background-color: black;
+    border: 6px solid black;
+    border-radius: 15px;
+}
+
+.fnumber {
+    border: 2px solid grey;
+    border-radius: 75%;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin: 5px;
+    background-color: grey;
+    color: black;
+}
+
+.fhead h3 {
+    color: white;
+    margin: 5px;
+}
+
+.frequest {
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    margin: 5px;
+}
+
+.fprofile {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ficon {
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.fname {
+    margin: 15px;
+    font-size: 150%;
+    text-decoration: underline;
+}
+
+.circle {
+    height: 30px;
+    margin: 8px
+}
+
+
+/* EDUCATION */
+
+#education {
+    width: 400px;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+
+#education h2 {
+    color: white;
+    background-color: cadetblue;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+#education h3 {
+    margin: 10px;
+}
+
+#education h4 {
+    margin: 10px;
+    color: grey
+}
+
+
+#connections {
+    width: 300px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 20px;
+}
